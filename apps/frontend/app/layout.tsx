@@ -41,8 +41,12 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <title>Employee Management System</title>
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gray-50`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gray-200`}
+        suppressHydrationWarning={true}
       >
         {children}
       </body>
