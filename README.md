@@ -1,4 +1,26 @@
-## Getting Started
+# User Management System
+
+A full-stack user management system with authentication and authorization, built with Next.js, NestJS, and PostgreSQL.
+
+## Quick Start
+
+Run the entire application with a single command:
+
+```bash
+# Install dependencies and start both frontend and backend
+npm install && npm run dev
+```
+
+This will:
+1. Install all dependencies
+2. Start the backend server on `http://localhost:5000`
+3. Start the frontend development server on `http://localhost:3000`
+
+> **Note**: Make sure you have set up your `.env` file and database before running (see below).
+
+---
+
+## Detailed Setup
 
 ### 1. Install dependencies
 
@@ -89,7 +111,18 @@ Frontend will run on `http://localhost:3000`.
 
 ---
 
-### 10. Troubleshooting
+## 🚀 Single Command Setup (Alternative)
+
+If you prefer to run everything with a single command after the initial setup:
+
+```bash
+# From the project root
+npm run dev
+```
+
+This uses the workspace configuration to start both frontend and backend concurrently.
+
+## 🛠 Troubleshooting
 
 - Make sure PostgreSQL is running and accessible.
 - Check `.env` values if you get connection/auth errors.
